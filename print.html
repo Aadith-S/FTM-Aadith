@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="Show" onclick="javascript:showdata();">
+    FirstName: Welcome <span id="FuN"></span>| Your address is <span id="addr"></span>
+    <script>
+        function showdata(){
+        var fn= localStorage.getItem("FN");
+        var ln= localStorage.getItem("LN");
+        var addr=localStorage.getItem("ADDR");
+        document.getElementById("FuN").innerHTML=fn+ln;
+        document.getElementById("addr").innerHTML=addr;
+        }
+    </script>
+</body>
+</html>
