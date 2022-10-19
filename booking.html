@@ -71,11 +71,24 @@
                 <td>11000</td>
                 <td><a href="Error.html">BOOK NOW</a></td>
             </tr>
+            <tr>
+                <td colspan="3">
+                    <video width="300" height="180" controls autoplay>
+                        <source src="video_preview_h264.mp4" type="video/mp4">
+                        <source src="" type="video/ogg">
+                    </video>
+                </td>
+            </tr>
         </thead>
     </table>
     <form action="print.html" method="get" style="margin-top:20px ;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; font-size: 16px; position: relative; float: right; margin-right:60px ; margin-top: -60px;">
     <h2>Register User</h2>
     <table>
+        <tr><td><select name="" id="">
+            <option value="1" selected>Mr</option>
+            <option value="2">Mrs</option>
+            <option value="3">Ms.</option>
+        </select></td></tr>
        <tr> <td> First Name </td> <td> <input type="text" name="FN" id="FN" placeholder="Your First Name" style="border-color: blue;"></td>      
         <tr><td>Last Name </td> <td><input type="text" name="LN" id="LN" placeholder="Your Last Name"style="border-color: blue;"></td>
         <tr> <td> Gender</td> <td><input type="radio" name="Gender" id="Male">Male
@@ -84,8 +97,11 @@
         <tr> <td>Address</td><td><textarea name="addr" id="addr" cols="20" rows="5" placeholder="Your Address"style="border-color: blue;border-width:2px"></textarea> </tr>
         <tr><td>Mobile</td> <td><input type="text" name="Pno" id="Pno"style="border-color: blue;"></td></tr>
         <tr><td>Email</td><td><input type="email" name="email" id="email"style="border-color: blue;"></td></tr>
-        <tr><td>Can we contact you?</td><td><input type="radio" name="contact" id="Yes">Yes <input type="radio" name="contect" id="No">No</td></tr>
+        <tr><td>Can we contact you?</td><td><input type="radio" name="contact" id="Yes">Yes <input type="radio" name="contact" id="No">No</td></tr>
         <tr><td>Communication Preference</td> <td><input type="checkbox" name="Pref" id="mail">Email <input type="checkbox" name="Pref" id="sms">SMS</td></tr>
+        <tr><td><input type="color" name="" id="">Fav Color</td></tr>
+        <tr><td><sub>1</sub><input type="range" name="" id="" min="1" max="100" value="20"><sub>100</sub> Fav Number</td></tr>
+        <tr><td><input type="file" name="" id="" accept="image/*,*.pdf"></td></tr>
         <tr><td><input type="checkbox" name="will" id="will" style="margin-top: 25px;margin-bottom:25px;">I agree to the <span style="color: blue;">terms and conditions</span> of the website</td></tr>
         <tr> <td><input type="submit" value="SUBMIT" style="background-color: rgb(86, 86, 208) ;padding:7px;color: white;margin-right: 15px;border-width: 0px;border-radius: 8px;padding-left: 35px;padding-right: 35px;" onclick="javascript:savedata();" on>
         <input type="reset" value="RESET"style="background-color: rgb(86, 86, 208) ;padding:7px;color: white;border-width:0px;border-radius:8px;padding-left: 35px;padding-right: 35px;"></td></tr>
