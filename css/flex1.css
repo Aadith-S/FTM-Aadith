@@ -1,0 +1,18 @@
+.container
+{  
+    display: flex;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+.item{
+    width: 30%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    flex-grow: 1 ;
+}
+div{
+    border: 1px solid black;
+    height: 100px;
+}

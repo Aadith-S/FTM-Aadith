@@ -1,0 +1,39 @@
+header{
+    background-color: rgb(8, 108, 223);
+    height: 110px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    font-style: italic;
+    list-style: none;
+    position: relative;
+    margin-left: 700px;
+    top: -60px;
+}
+nav li{
+    margin-left: 50px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.drop
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 20px;
+    min-height: 30px;
+    z-index: 5;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info:hover .drop{
+    display: block;
+}
